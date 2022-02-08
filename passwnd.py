@@ -22,7 +22,9 @@ from hashlib import sha1
 import requests
 import os
 
-print('''passwnd - Check for breached passwords with k-anonymity
+APP_VERSION = 'DEV'
+
+print(F'''passwnd (version {APP_VERSION}) - Check for breached passwords with k-anonymity
 Copyright (C) 2022  Sindastra <https://github.com/sindastra/passwnd>
 
 This program is distributed in the hope that it will be useful,
