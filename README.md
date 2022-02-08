@@ -41,8 +41,6 @@ to download a few kB of data instead of GB.
 
 Please consider donating a coffee if this tool is useful to you. (:
 
-https://ko-fi.com/sindastra
-
-https://www.patreon.com/sindastra
-
-https://liberapay.com/sindastra
+* [Ko-fi](https://ko-fi.com/sindastra)
+* [Patreon](https://www.patreon.com/sindastra)
+* [Liberapay](https://liberapay.com/sindastra)
