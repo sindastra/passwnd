@@ -36,3 +36,13 @@ You can download either the `passwnd.py` or `passwnd.exe` directly, or choose a 
 
 This way, we can check if a password was breached, without revealing said password. While simultaneously only requiring
 to download a few kB of data instead of GB.
+
+# Coffee
+
+Please consider donating a coffee if this tool is useful to you. (:
+
+https://ko-fi.com/sindastra
+
+https://www.patreon.com/sindastra
+
+https://liberapay.com/sindastra
