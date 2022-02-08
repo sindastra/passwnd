@@ -14,6 +14,10 @@ Alternatively, you can specify the password directly:
 
 The latter is not recommended, as it might leak the password to the shell history.
 
+# Usage (Windows)
+
+Simply double-click `passwnd.exe` or use it in a terminal like above.
+
 # Obtaining
 
 You can get the latest release from [here](https://github.com/sindastra/passwnd/releases/latest).
