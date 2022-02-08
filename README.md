@@ -14,6 +14,14 @@ Alternatively, you can specify the password directly:
 
 The latter is not recommended, as it might leak the password to the shell history.
 
+# Obtaining
+
+You can get the latest release from [here](https://github.com/sindastra/passwnd/releases/latest).
+
+For ease-of-use, `passwnd.exe` is provided for Windows users, which comes with embedded Python.
+
+You can download either the `passwnd.py` or `passwnd.exe` directly, or choose a packaged version which includes additional files.
+
 # How it works
 
 1. The password will be hashed with SHA1 and turned to human-readable hex (ASCII)
