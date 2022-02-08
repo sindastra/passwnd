@@ -21,10 +21,12 @@ from sys import exit  # This is for pyinstaller to work
 from hashlib import sha1
 import requests
 import os
+import platform
 
 APP_VERSION = 'DEV'
+PYTHON_VERSION = platform.python_version()
 
-print(F'''passwnd (version {APP_VERSION}) - Check for breached passwords with k-anonymity
+print(F'''passwnd (version {APP_VERSION}, on Python {PYTHON_VERSION}) - Check for breached passwords with k-anonymity
 Copyright (C) 2022  Sindastra <https://github.com/sindastra/passwnd>
 
 This program is distributed in the hope that it will be useful,
