@@ -19,7 +19,7 @@ import getpass
 import sys
 from sys import exit  # This is for pyinstaller to work
 from hashlib import sha1
-import requests
+import urllib.request
 import os
 import platform
 
@@ -54,12 +54,12 @@ HASH_SUFFIX = PASSWORD_HASHED[5:]
 print(F'Submitting hash prefix: {HASH_PREFIX}...')
 
 APIURL = 'https://api.pwnedpasswords.com/range/'
-REQUEST = requests.get(APIURL + HASH_PREFIX)
+REQUEST = urllib.request.urlopen(APIURL + HASH_PREFIX)
 
-if REQUEST.status_code != 200:
+if REQUEST.status != 200:
     exit('Unexpected server response.')
 
-RESPONSE = REQUEST.text.strip()
+RESPONSE = REQUEST.read().decode()
 RESULTS = RESPONSE.split()
 
 print(F'Got {len(RESULTS)} hashes... Searching...')
